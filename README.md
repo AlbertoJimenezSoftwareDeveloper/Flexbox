@@ -1,0 +1,13 @@
+Flexbox
+
+I created this website to put some CSS concepts into practice and to see the power of flexbox.
+
+The main thing I use is flex direction, and some things like margin.
+The concepts of main access and cross-axis were put into practice.
+
+You can see the live page at this link and in this repository.
+
+This is the CSS code we implemented.
+(the line in red is an outline class just for debug flex items)
+
+<img width="1784" height="996" alt="image" src="https://github.com/user-attachments/assets/c80d7fb6-0938-4c4e-a552-2169d02defd9" />
