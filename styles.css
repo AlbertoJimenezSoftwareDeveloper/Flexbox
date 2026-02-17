@@ -34,6 +34,7 @@ body{
 }
 
 .hero{
+    max-width: 1200px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;;
@@ -42,9 +43,9 @@ body{
     gap:2em;
 }
 
-.hero *{
+/* .hero *{
     outline: 1px solid red;
-}
+} */
 
 .hero__img{
     width: 100%;
@@ -74,4 +75,30 @@ body{
     padding: 1em 3em;
     border-radius: 2em;
     align-self: center;
+}
+
+@media(min-width:768px){
+    .hero{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero__picture{
+        order: 1;
+        width: 50%;
+    }
+
+    .hero__img{
+        max-width: none;;
+    }
+
+    .hero__texts{
+        width: 45%;
+        text-align: left;
+    }
+
+    .hero__cta{
+        align-self: flex-start;
+    }
 }
