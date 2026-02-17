@@ -5,7 +5,7 @@ I created this website to put some CSS concepts into practice and to see the pow
 The main thing I use is flex direction, and some things like margin.
 The concepts of main access and cross-axis were put into practice.
 
-You can see the live page at this link and in this repository.
+You can see the live page at this [link](https://flexbox-production.up.railway.app/) and in this repository.
 
 This is the CSS code we implemented.
 (the line in red is an outline class just for debug flex items)
